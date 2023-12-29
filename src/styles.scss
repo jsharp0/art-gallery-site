@@ -1,1 +1,28 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+$primary: #d5966c;
+$gray-dark: #151515;
+$gray-light: #444444;
+
+.hero {
+  background-image: url("assets/desktop/image-hero.jpg");
+  height: 800px;
+  background-repeat: no-repeat;
+}
+
+.hero-tablet {
+  background-image: url("assets/desktop/image-hero.jpg");
+  height: 800px;
+  background-repeat: no-repeat;
+}
+
+.primary-btn:hover {
+  .bg-gray-dark {
+    background-color: $primary;
+  }
+
+  .bg-primary {
+    background-color: $gray-dark;
+  }
+}
