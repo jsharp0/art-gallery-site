@@ -58,12 +58,12 @@ export class FooterComponent {
   get footerStyles() {
     if (this.styleMode === 'primary') {
       return {
-        logoPath: '../assets/logo-light.svg',
+        logoPath: 'assets/logo-light.svg',
         classes: 'bg-gray-dark text-white ',
       };
     }
     return {
-      logoPath: '../assets/logo-dark.svg',
+      logoPath: 'assets/logo-dark.svg',
       classes: 'bg-primary text-gray-dark',
     };
   }

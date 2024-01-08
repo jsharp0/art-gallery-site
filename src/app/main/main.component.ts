@@ -74,15 +74,15 @@ import { RouterModule } from '@angular/router';
       </div>
       <img
         class="desktop:col-span-8 tablet:col-span-8 mobile:col-span-1 desktop:justify-self-end tablet:justify-self-end "
-        src="../assets/desktop/image-grid-1.jpg"
+        src="assets/desktop/image-grid-1.jpg"
       />
       <img
         class="desktop:col-span-7 tablet:col-span-7 mobile:col-span-1 row-span-2 h-full"
-        src="../assets/desktop/image-grid-2.jpg"
+        src="assets/desktop/image-grid-2.jpg"
       />
       <img
         class="desktop:col-span-5 tablet:col-span-5 mobile:col-span-1 w-full"
-        src="../assets/desktop/image-grid-3.jpg"
+        src="assets/desktop/image-grid-3.jpg"
       />
 
       <div

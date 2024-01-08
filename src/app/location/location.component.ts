@@ -11,7 +11,7 @@ import { RouterModule } from '@angular/router';
         [routerLink]="['../']"
       >
         <div class="bg-gray-dark py-6 px-6">
-          <img src="../assets/icon-arrow-left.svg" />
+          <img src="assets/icon-arrow-left.svg" />
         </div>
         <button class="bg-primary py-6 px-8 text-button uppercase">
           Back to Home
